@@ -6,7 +6,7 @@
 #include <NTPClient.h>
 #include <WiFiUdp.h>
 
-// --- PIN & BAUD ---
+// ---- PIN & BAUD ----
 #define RX_LD50 9
 #define TX_LD50 10
 #define LD2450_BAUD 256000
@@ -436,6 +436,7 @@ void loop() {
         sendAndPrint();
     }
 }
+
 
 
 
